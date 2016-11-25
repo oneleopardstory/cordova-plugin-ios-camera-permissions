@@ -10,13 +10,22 @@
     </engines>
     <platform name="ios">
       <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-          <string></string>
+          <array>
+              <string>camera</string>
+              <string>相機</string>
+          </array>
       </config-file>
       <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
-          <string></string>
+          <array>
+              <string>microphone</string>
+              <string>麥克風</string>
+          </array>
       </config-file>
       <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-          <string></string>
+          <array>
+              <string>photo</string>
+              <string>照片</string>
+          </array>
       </config-file>
     </platform>
 </plugin>
