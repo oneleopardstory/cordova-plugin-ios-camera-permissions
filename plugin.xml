@@ -10,22 +10,13 @@
     </engines>
     <platform name="ios">
       <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-          <array>
-              <string>camera</string>
-              <string>相機</string>
-          </array>
+           <string>This app requires access to the camera.</string>
       </config-file>
       <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
-          <array>
-              <string>microphone</string>
-              <string>麥克風</string>
-          </array>
+           <string>This app requires access to the microphone.</string>
       </config-file>
       <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-          <array>
-              <string>photo</string>
-              <string>照片</string>
-          </array>
+           <string>This app requires access to the photo library.</string>
       </config-file>
     </platform>
 </plugin>
