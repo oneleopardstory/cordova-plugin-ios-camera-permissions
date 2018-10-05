@@ -10,13 +10,13 @@
     </engines>
     <platform name="ios">
       <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-           <string>This app requires access to the camera.</string>
+           <string>This app requires access to the camera for taking photos.</string>
       </config-file>
       <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
-           <string>This app requires access to the microphone.</string>
+           <string>App would like to access your microphone for voice record. Your records wont be shared without your permission. </string>
       </config-file>
       <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-           <string>This app requires access to the photo library.</string>
+           <string>App would like to access your photo gallery for photo upload. Your photos wont be shared without your permission.</string>
       </config-file>
     </platform>
 </plugin>
